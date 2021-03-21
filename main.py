@@ -1,6 +1,8 @@
 import random
 x = random.randint(1, 3)
 
+c = 0
+
 player = input(str("Name: "))
 
 p = open(player, "a")
